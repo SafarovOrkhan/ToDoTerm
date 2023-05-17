@@ -39,6 +39,9 @@ then
                         echo "Task added to ${tomye}/${tommo}/${tomday}"
                 fi
         fi
+elif [ $1 == "--help" ]
+then
+        cat ${sourcepath}ToDoTerm/taskadd-help
 else
         if [ -f ${sourcepath}ToDoTerm/Database/$1 ];
         then
