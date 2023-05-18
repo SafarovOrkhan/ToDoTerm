@@ -3,12 +3,12 @@ ToDoTerm is a beginner level bash interactive To Do application
 
 # This Application is Directory based. which contains:
 - 2 new commands (taskadd / taskview)
-- 1 installation script that needs to be run by root or administrative privilieged user 
+- 1 installation script that needs to be run by root or administrative privilieged user (You must give x permission to setup.sh)
 - a Database folder which will contain every day in a specific text file with hierarchical order
 - a tmpfile for making 2 commands work (execution of commands are overwriting it. so information in this file is not constant)
 
 
-# installation Script asks questions and based on your answer you can :
+# Setup Script asks questions and based on your answer you can :
 - change owners of all files and directories (including Application directory)
 - making aliases automatically by applying them at the end of /etc/profile file
 - changing the path of complete Application folder
