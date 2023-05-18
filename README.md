@@ -13,7 +13,8 @@ ToDoTerm is a beginner level bash interactive To Do application
 - making aliases automatically by applying them at the end of /etc/profile file
 - changing the path of complete Application folder
 
-# you can install this whole by cloning it on your terminal
+## you can install this whole by cloning it on your terminal
+## after installation type `taskadd --help` and `taskiew --help` to get more information about commands (only works if you accept alias during installation)
 
 ## Tutorial how to use it (video) : Very Soon !
 ## Explanation of the system (video) : Very Soon !
