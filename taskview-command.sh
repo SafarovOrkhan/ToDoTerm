@@ -21,6 +21,7 @@ then
 elif [ $1 == "--help" ]
 then
         cat ${sourcepath}ToDoTerm/taskview-help
+        exit 0
 else
         echo "--------------- $1 ---------------"
         cat -n ${sourcepath}ToDoTerm/Database/$1
