@@ -73,7 +73,7 @@ then
         if [ $1 == "today" ];
         then
                 sed -e ${argument}d ${sourcepath}ToDoTerm/Database/"${todayye}"/"${todaymo}"/"${todayday}" > ${sourcepath}ToDoTerm/tmpfile
-                cat ${sourcepath}ToDoTerm/mpfile > ${sourcepath}ToDoTerm/Database/"${todayye}"/"${todaymo}"/"${todayday}"
+                cat ${sourcepath}ToDoTerm/tmpfile > ${sourcepath}ToDoTerm/Database/"${todayye}"/"${todaymo}"/"${todayday}"
                 echo "task No: $argument removed"
         elif [ $1 == "tomorrow" ]
         then
