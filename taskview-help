@@ -1,0 +1,7 @@
+taskview DAYSTAMP 
+
+DAYSTAMP must be one of three conditions : 
+  yy/mm/dd     this is accepted specific format example 23/05/17  which is 17th May 2023
+  today        when you type today, command will assume it the current date and views that specific task correctly
+  tomorrow     when you type tomorrow, command will assume it the tomorrow date and views that specific task correctly
+  
